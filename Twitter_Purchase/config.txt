@@ -1,0 +1,35 @@
+# Configuration file for automatic purchase of Nike products.
+# Only edit the values in the Square Brackets([]) if you know what you are 
+# doing. Enter one section of shipment<number> and payment<number> for each
+# instance of purchase needed. All the sections are mandatory.
+# same_billandship_addr should either be 0 or 1
+# Note : Address field cannot be more than 70 characters long.
+
+[shipment1]
+Fname = Vinay
+Lname = Nadig
+Address = Something1 Something2 Something3 Something4 Something5 Something6
+City = New York
+State = New York
+Zip_Code = 10007
+Shoe_Size1 = 13.5
+Shoe_Size2 = 12.5
+Shoe_Size3 = 10
+
+[payment1]
+Card_Type = American Express
+Card_Number = 371449635398431
+Exp_Month = 7
+Exp_Year = 2015
+Security_Code = 583
+Same_BillandShip_Addr = 1
+Fname = Vinay
+Lname = Nadig
+Address = Something1 something2 Something3 Something4 Something5 Something6
+City = New York
+State = New York
+Zip_Code = 10007
+Billing_Phone = 9886667022
+Alt_Phone = 9886667033
+Email = hobblegobber@gmail.com
+
